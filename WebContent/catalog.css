@@ -1,0 +1,151 @@
+@charset "ISO-8859-1";
+
+.thumbnail img{
+	 max-width: 350px;
+	 height:500px;
+	 width:100%;
+	 height:auto;
+}
+
+.container-itemdes{
+  width: 90%;
+  margin: 0 auto;
+  overflow: auto;
+  background-color:white;
+}
+.home{
+	color:#7d7d7d;
+}
+.breadcrumb{
+	color:#7d7d7d;
+	margin-top:10px;
+}
+.breadcrumb li{
+	float:left;
+	padding:0 6px;
+	height:20px;
+	line-height:20px;
+}
+.breadcrumb li:first-child{
+	padding-left:2px;
+}
+.breadcrumb li:not(:last-child)::after{
+	content:" \276f";
+	padding-left:8px;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.description{
+	border-top: 1px solid #ddd;
+}
+.description  li{
+	padding:1rem 0;
+	border-bottom:1px solid #ddd;
+}
+.row{
+	position:relative;
+	overflow:auto;
+	width:100%;
+}
+.col{
+	float:left;
+	}
+.col.left{
+	width:40%;
+	}
+.col.right{
+	width:60%;
+	position:absolute;
+	right:0;
+}
+
+.detail .name{
+	font-size:2rem;
+	font-weight:bold;
+	font-variant:small-caps;
+}
+.detail .name,.author,.rating{
+	padding:5px;
+}
+.sell .price{
+	font-size:1.5rem;
+	font-weight:bold;
+}
+.sell{
+	padding:1.5rem 0 1.5rem 1rem; 
+	border: 1px solid #ddd;
+	width:100%;
+	margin-top: 1.2rem;
+}
+.buttoncart{
+	background-color:#555;
+	border:2px solid #555;
+	color: white;
+	transition: all 0.25s linear;
+	cursor:pointer;
+	width:9rem;
+	height:2rem;
+	position:relative;
+	
+}
+.buttoncart:hover{
+	background-color:black;
+	border-color:black;
+}
+.heart{
+	color:#555;
+	transition:all 0.25s linear;
+}
+.heart:hover{
+	color:black
+}
+.sell .buy{
+	padding-top:10px;
+}
+.descrizione{
+	padding-top:10px;
+}
+@media(max-width:599px){
+	.thumbnail img{
+	display:block;
+  	display: flex;
+ 	align-items: center;
+  	justify-content: center;
+	width:200px;
+	height:300px;
+	}
+	.col.left{
+	width:50%;
+	margin: 0 auto;
+  	overflow: auto;
+	}
+	.row{
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+	}
+	.col.right{
+	position:relative;
+	margin: 0 auto;
+  	overflow: auto;
+  	width:70%;
+	}
+	.sell{
+	width:100%;
+	margin: 0 auto;
+ 	overflow: auto;
+ 	position: relative;
+ 	text-align: center;
+	}
+}
+@media(min-width:600px){
+	.container-itemdes{
+	width:60%;
+	}
+}
+@media(min-width:992px){
+	.sell{width:13rem;}
+}

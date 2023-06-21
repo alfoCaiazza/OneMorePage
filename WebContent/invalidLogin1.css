@@ -1,0 +1,226 @@
+@charset "ISO-8859-1";
+h2{
+	text-align: center;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+	line-height: 26.4px;
+}
+
+	form input[type=text], form input[type=number], form input[type=password],
+	form input[type=date], form input[type=range], form input[type=email],
+	form input[type=url], form input[type=time], form input[list]{
+	  width: 100%;
+  	  padding: 12px 20px;
+  	  margin: 8px 0;
+      display: inline-block;
+      box-sizing: border-box;
+      font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: 400;
+      line-height: 20px;
+      background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+      padding: 10px 0 10px 20px;
+ 	  border: 5px solid rgba(0, 0, 0, 0.3);
+ 	  box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
+  	  color: #555;
+ 	  border-radius: 50px;
+}
+	form input:focus{
+	border: 5px solid #555;
+    transition: all 0.5s;
+    box-shadow: 10px 10px 0 #555;
+  }
+
+.center-reg{
+  border-radius: 50px;
+  box-shadow: 20px 20px 0 rgba(0, 0, 0, 0.3);
+  border: 6px solid rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  margin:auto;
+  width:800px;
+  background-color:white;
+}
+.center-reg{
+  margin-top:20px;
+  margin-bottom:30px;
+}
+.center-reg h2{
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 50px;
+  text-transform: uppercase;
+  pointer-events: none;
+}
+.pulsante {
+ display: inline-block;
+ text-align: center;
+ white-space: nowrap;
+ width:30%;
+ text-decoration: none;
+ line-height: 1.2;
+ font-weight: 700;
+ font-size: 24px;
+ outline: none;
+ cursor: pointer;
+ padding: 10px;
+ background: transparent;
+ border: 5px solid rgba(0, 0, 0, 0.3);
+ box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
+ border-radius: 45px;
+ cursor: pointer;
+ transition: all 0.4s;
+ color: rgba(0, 0, 0, 0.3);
+}
+.pulsante:hover {
+  border: 5px solid #555;
+  color: #555;
+  transition: all 0.4s;
+  box-shadow: 10px 10px 0 #555;
+}
+.pulsante > strong {
+ font-size: 24px;
+}
+
+/*the container must be positioned relative:*/
+.custom-select {
+  position: relative;
+  font-family: Arial;
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element:*/
+}
+
+.select-selected {
+  background-color: DodgerBlue;
+}
+
+/*style the arrow inside the select element:*/
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+
+/*style the items (options), including the selected item:*/
+.select-items div,.select-selected {
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+}
+
+/*style items (options):*/
+.select-items {
+  position: absolute;
+  background-color: DodgerBlue;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+/*Set mostra gli oggetti in orizzontale a due a due*/
+.set{
+	display:flex;
+	justify-content:space-between;
+}
+.set-name{
+   width:350px;
+}
+.set-surname{
+   width:350px;
+}
+.set-email{
+	width:350px;
+}
+.set-pwd{
+	width:350px;
+}
+.set-indirizzo{
+	width:350px;
+}
+.set-cap{
+	width:350px;
+}
+.set-regione{
+	width:220px;
+}
+
+
+.set-provincia{
+	width:220px;
+}
+.set-paese{
+	width:220px;
+}
+@media(max-width:799px){
+	.center-reg{
+	width:100%;
+	}
+	.set-name, .set-surname, .set-email, .set-pwd, .set-indirizzo, .set-cap{
+	width:20rem;
+	}
+	.set-regione, .set-provincia, .set-paese{
+	width:14rem;
+	}
+}
+
+select{
+    width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+      display: inline-block;
+      box-sizing: border-box;
+      font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: 400;
+      line-height: 20px;
+      background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+      padding: 10px 0 10px 20px;
+       border: 5px solid rgba(0, 0, 0, 0.3);
+       box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
+        color: #555;
+       border-radius: 50px;
+}
+select:focus{
+    border: 5px solid #555;
+    transition: all 0.5s;
+    box-shadow: 10px 10px 0 #555;
+}
+@media(min-width:800px){
+	.set-name, .set-surname, .set-email, .set-pwd, .set-indirizzo, .set-cap{
+	width:350px;
+	}
+	.set-regione, .set-provincia, .set-paese{
+	width: 220px;
+	}
+}
+

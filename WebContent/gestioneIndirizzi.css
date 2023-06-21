@@ -1,0 +1,116 @@
+@charset "ISO-8859-1";
+.indirizzi-container{
+  width: 70%;
+  padding: 30px 90px 90px 90px;
+  border: 6px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 20px 20px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 50px;
+  position: relative;
+  margin: 0 auto;
+  overflow: auto;
+  text-align:center;
+}
+.indirizzi-container{
+	margin-top:20px;
+	margin-bottom:30px;
+}
+.indirizzi-container h2{
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 2rem;
+  text-transform: uppercase;
+  pointer-events: none;
+}
+.indirizzi-container input{
+  width: 60%;
+  background: transparent;
+  outline: none;
+  font-size: 14px;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  padding: 10px 0 10px 20px;
+  border: 5px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
+  color: #555;
+  border-radius: 50px;
+}
+.indirizzi-container input:focus{
+	border: 5px solid #555;
+    transition: all 0.5s;
+    box-shadow: 10px 10px 0 #555;	
+}
+.indirizzi-container input[type="submit"]{
+ display: inline-block;
+ text-align: center;
+ white-space: nowrap;
+ width:30%;
+ text-decoration: none;
+ line-height: 1.2;
+ font-weight: 700;
+ font-size: 24px;
+ outline: none;
+ cursor: pointer;
+ padding: 10px;
+ background: transparent;
+ border: 5px solid rgba(0, 0, 0, 0.3);
+ box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
+ border-radius: 45px;
+ cursor: pointer;
+ transition: all 0.4s;
+ color: rgba(0, 0, 0, 0.3);
+}
+.indirizzi-container input[type="submit"]:hover{
+	border: 5px solid #555;
+  color: #555;
+  transition: all 0.4s;
+  box-shadow: 10px 10px 0 #555;
+}
+.indirizzi-container label{
+	font-size:20px;
+}
+.indirizzi-container table{
+	
+	margin-left: auto;
+	margin-right: auto;
+}
+.del{
+	color:black;
+}
+.del:hover{
+	color:blue;
+}
+
+select{
+    width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+      display: inline-block;
+      box-sizing: border-box;
+      font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: 400;
+      line-height: 20px;
+      background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+      padding: 10px 0 10px 20px;
+       border: 5px solid rgba(0, 0, 0, 0.3);
+       box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
+        color: #555;
+       border-radius: 50px;
+}
+select:focus{
+    border: 5px solid #555;
+    transition: all 0.5s;
+    box-shadow: 10px 10px 0 #555;
+}
+@media(max-width:899px){
+	.indirizzi-container{
+	width:80%;
+	}
+	.indirizzi-container input{
+	width:100%;
+	}
+	.indirizzi-container input[type="submit"]{
+	width:100%;
+	}
+	
+}

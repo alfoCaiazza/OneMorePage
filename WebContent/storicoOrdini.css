@@ -1,0 +1,25 @@
+@charset "ISO-8859-1";
+.bottone-indietro{
+	bottom:30px;
+	right:15px;
+	border:none;
+	cursor:pointer;
+	background-color:#d0d0d0;
+	position:fixed;
+	border-radius:50%;
+}
+.bottone-indietro:hover{
+	background-color:#999999;
+	transition:0.3s;
+}
+.container-storico{
+	text-align: center;
+	width:90%;
+	margin: 0 auto;
+ 	overflow: auto;
+ 	background-color:white;
+}
+.container-storico table{
+	 margin-left: auto; 
+ 	 margin-right: auto;
+}

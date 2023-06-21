@@ -1,0 +1,75 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8" import="java.util.*, model.ProductBean"%>
+    
+<%
+    Collection<?> prodotti = (Collection<?>) request.getAttribute("prodotti");
+    	if(prodotti == null) {
+    		response.sendRedirect("./SearchServlet");
+    		return;
+    }
+%>    
+    
+<!DOCTYPE html>
+	<html>
+		<%@ page %>
+		<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="Style.css" rel="stylesheet" type="text/css">
+		<link href="preferiti.css" rel="stylesheet" type="text/css">
+		<script src="javas/head.js"></script>
+		<script src="javas/foot.js"></script>
+			<script>
+    function openNav() {
+    	  document.getElementById("mySidenav").style.width = "100%";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }</script>
+		<title>OneMorePage</title>
+		</head>
+		<body>
+		<header></header>
+		<div class="container-pref">
+		<h1>Prodotti trovati</h1>
+		</div>
+			<div class="container-pref">
+			<ul class="products">
+		<%
+			if (prodotti != null && prodotti.size() != 0) {
+				Iterator<?> it = prodotti.iterator();
+				while (it.hasNext()) {
+					ProductBean bean = (ProductBean) it.next();
+		%>
+			<li class="row">
+			<div class="col left">
+				<div class="thumbnail"><a href="Detail?action=read&id=<%=bean.getCode()%>"><img src="<%=bean.getImgThumb() %>" alt="NONE" width="200" height="300"></a></div>
+				<div class="detail">
+				<div class="name"><%=bean.getName()%></div>
+				<div class="author">Autore: <%=bean.getAuthor() %></div>
+				<div class="price">Prezzo: <%=bean.getPrice()%> €</div>
+				</div>
+			</div>
+			<div class="col right">
+				<div class="addtocart"><a class="removebtn" href="Catalog?action=addCart&prodotto=<%=bean.getName()%>"><i style="font-size:30px" class="fa">&#xf217;</i></a></div>
+				<div class="remove"><a class="removebtn" href="Catalog?action=addPreferito&prodotto=<%=bean.getCode()%>"><i style="font-size:30px"class="fa">&#xf004;</i></a></div>
+			</div>
+			
+				
+				
+		
+		<%
+				}
+			} else {
+		%>
+			<p>Nessun risultato <a class="removebtn" href="ricercaAvanzata.jsp">Riprova</a></p>
+		<%
+			}
+		%>
+		</ul>
+		</div>
+	<footer></footer>
+	</body>
+	</html>

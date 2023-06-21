@@ -1,0 +1,99 @@
+@charset "ISO-8859-1";
+
+
+body{
+	background-color:white;
+	text-align:center;
+}
+
+.container{
+	margin: auto;
+  	width: 60%;
+  	padding: 10px;
+}
+
+table {
+  border-collapse:collapse;
+  width: 100%;
+  border: #232323;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  border: 1px white;
+}
+
+table.left{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+a:link {
+	color: #343434;
+	font-weight: bold;
+}
+
+a:visited {
+	color:#343434;
+	font-weight: bold;
+}
+
+a:hover {
+	color: red;
+	font-weight: bold;
+	cursor:pointer;
+}
+
+a:active {
+	color: blue;
+	font-weight: bold;
+}
+.bottone-indietro{
+	bottom:30px;
+	right:15px;
+	border:none;
+	cursor:pointer;
+	background-color:#d0d0d0;
+	position:fixed;
+	border-radius:50%;
+}
+.bottone-indietro:hover{
+	background-color:#999999;
+	transition:0.3s;
+}
+.forms{
+	margin: auto;
+  	width: 60%;
+  	padding: 10px;
+  	text-align:left;
+}
+.ricerca-btn{
+	cursor:pointer;
+	background-color:#d0d0d0;
+	border:none;
+	border-radius:5px;
+	font-size:15px;
+	
+}
+.ricerca-btn:hover{
+	background-color:#999999;
+	transition:0.3s;
+}
+#dataFine{
+	border-radius:5px;
+	border:1px solid black;
+	
+}
+#dataInizio{
+	border-radius:5px;
+	border:1px solid black;
+	
+}
+#user{
+	border-radius:5px;
+	border:1px solid black;
+	
+}

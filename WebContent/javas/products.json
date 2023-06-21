@@ -1,0 +1,181 @@
+[
+	{
+		"titolo":"Il giorno della civetta",
+		"categoria":"Narrativa Italiana",
+		"autore":"Leonardo Sciascia"
+	},
+	
+	{
+		"titolo":"Il libro di johnny",
+		"categoria":"Narrativa Italiana",
+		"autore":"Beppe Fenoglio"
+	},
+	
+	{
+		"titolo":"Contrappasso",
+		"categoria":"Narrativa Italiana",
+		"autore":"Andrea Delogu"
+	},
+	
+	{
+		"titolo":"I leoni di Sicilia",
+		"categoria":"Narrativa Italiana",
+		"autore":"Stefania Auci"
+	},
+	
+	{
+		"titolo":"La luna e i falo'",
+		"categoria":"Narrativa Italiana",
+		"autore":"Cesare Pavese"
+	},
+	
+	{
+		"titolo":"2119. La disfatta dei Sapiens",
+		"categoria":"Fantascienza",
+		"autore":"Sabrina Guzzanti"
+	},
+	
+	{
+		"titolo":"Antologia della fantascienza",
+		"categoria":"Fantascienza",
+		"autore":"Sergio Solmi"
+	},
+	
+	{
+		"titolo":"Il fantasma di Eymerich",
+		"categoria":"Fantascienza",
+		"autore":"Valerio Evangelisti"
+	},
+	
+	{
+		"titolo":"Configurazione Tundra",
+		"categoria":"Fantascienza",
+		"autore":"Elena Giorgiana Mirabelli"
+	},
+	
+	{
+		"titolo":"Il vampiro. Storia vera",
+		"categoria":"Gialli e Horror",
+		"autore":"Franco Mastrali"
+	},
+	
+	{
+		"titolo":"I topi del cimitero",
+		"categoria":"Gialli e Horror",
+		"autore":"Carlo De Medici"
+	},
+	
+	{
+		"titolo":"Doppelganger. Il maligno",
+		"categoria":"Gialli e Horror",
+		"autore":"Maria Elena Cristiano"
+	},
+	
+	{
+		"titolo":"Storie di bestie e fantasmi",
+		"categoria":"Gialli e Horror",
+		"autore":"Carlo Linati"
+	},
+	
+	{
+		"titolo":"Hot Monkey",
+		"categoria":"Libri in inglese",
+		"autore":"Naomi Klein"
+	},
+	
+	{
+		"titolo":"Against the loveless world",
+		"categoria":"Libri in inglese",
+		"autore":"Susan Abhulawa"
+	},
+	
+	{
+		"titolo":"Language of Lidership",
+		"categoria":"Libri in inglese",
+		"autore":"Joel Schwartzberg"
+	},
+	
+	{
+		"titolo":"The story of 9/11",
+		"categoria":"Libri in inglese",
+		"autore":"Mitchell Zuckoff"
+	},
+	
+	{
+		"titolo":"Il Duca",
+		"categoria":"Moderna",
+		"autore":"Matteo Melchiorre"
+	},
+	
+	{
+		"titolo":"Una corte di spine e rose. Trilogia.",
+		"categoria":"Narrativa straniera",
+		"autore":"Sarah J. Maas"
+	},
+	
+	{
+		"titolo":"Il caso Alaska Sanders",
+		"categoria":"Narrativa straniera",
+		"autore":"Joel Dicker"
+	},
+	
+	{
+		"titolo":"La canzone di Achille",
+		"categoria":"Narrativa straniera",
+		"autore":"Madeline Miller"
+	},
+	
+	{
+		"titolo":"Circe",
+		"categoria":"Narrativa straniera",
+		"autore":"Madeline Miller"
+	},
+	
+	{
+		"titolo":"Finche' il caffe' e' caldo",
+		"categoria":"Narrativa straniera",
+		"autore":"Toshikazu Kawaguchi"
+	},
+	
+	{
+		"titolo":"Una vita come tante",
+		"categoria":"Narrativa straniera",
+		"autore":"Honya Yanagihara"
+	},
+	
+	{
+		"titolo":"Libri che mi hanno rovinato la vita",
+		"categoria":"Narrativa Italiana",
+		"autore":"Daria Bignardi"
+	},
+	
+	{
+		"titolo":"Prima di noi",
+		"categoria":"Narrativa Italiana",
+		"autore":"Giorgio Fontana"
+	},
+	
+	{
+		"titolo":"Perche'? 100 storie di filosofi per ragazzi curiosi",
+		"categoria":"Bambini e ragazzi",
+		"autore":"Umberto Galimberti"
+	},
+	
+	{
+		"titolo":"Che tempesta! 50 emozioni raccontate ai ragazzi",
+		"categoria":"Bambini e ragazzi",
+		"autore":"Umberto Galimberti"
+	},
+	
+	{
+		"titolo":"Il buio oltre la siepe",
+		"categoria":"Bambini e ragazzi",
+		"autore":"Harper Lee"
+	},
+	
+	{
+		"titolo":"Noi ragazzi della liberta'. I partigiani raccontano",
+		"categoria":"Bambini e ragazzi",
+		"autore":"Feltrinelli"
+	}
+]

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tomcat-users>
+<role rolename="registered-user"/>
+<role rolename="administrator"/>
+<role rolename="employee"/>
+<role rolename="ceo"/>
+<role rolename="executive"/>
+<user username="gates" password="llib" roles="employee"/>
+<user username="rita" password="rita" roles="administrator"/>
+<user username="gerstner" password="lou" roles="ceo"/>
+<user username="juana" password="anauj" roles="administrator,registered-user"/>
+<user username="john" password="nhoj" roles="registered-user"/>
+<user username="ellison" password="yrral" roles="employee"/>
+<user username="jane" password="enaj" roles="registered-user"/>
+<user username="mcnealy" password="ttocs" roles="executive"/>
+</tomcat-users>

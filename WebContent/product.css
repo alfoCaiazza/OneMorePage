@@ -1,0 +1,95 @@
+@CHARSET "UTF-8";
+
+html {
+	width: 100%;
+	margin: 10px auto;
+}
+
+h2 {
+	text-align: center;
+}
+
+a:link {
+	color: #343434;
+	font-weight: bold;
+}
+
+a:visited {
+	color:#343434;
+	font-weight: bold;
+}
+
+a:hover {
+	color: red;
+	font-weight: bold;
+}
+
+a:active {
+	color: blue;
+	font-weight: bold;
+}
+
+table {
+  border-collapse:collapse;
+  width: 100%;
+  border: #232323;
+  height: 30%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  border: 1px white;
+}
+
+table.left{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+label {
+	font-family: "Open Sans", sans-serif;
+  	font-size: 16px;
+}
+
+form input[type=text], form input[type=number], form input[type=password],
+	form input[type=date], form input[type=range], form input[type=email],
+	form input[type=url], form input[type=time], form input[list] {
+	  width: 100%;
+  	  padding: 12px 20px;
+  	  margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+}
+
+textarea {
+	  width: 100%;
+  	  padding: 12px 20px;
+  	  margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+}
+.bottone-indietro{
+	bottom:30px;
+	right:15px;
+	border:none;
+	cursor:pointer;
+	background-color:#d0d0d0;
+	position:fixed;
+	border-radius:50%;
+}
+.bottone-indietro:hover{
+	background-color:#999999;
+	transition:0.3s;
+}
+.dimensione{
+	width:500px;
+	margin:0 auto;
+	
+}
